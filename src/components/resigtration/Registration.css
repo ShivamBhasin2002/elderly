@@ -1,0 +1,25 @@
+#datePicker{
+    height:25px;
+    width:250px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.datePicker{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top:15px;
+}
+.datePicker > p {
+    font-weight: 600;
+}
+.reg_btn{
+    margin-top: 20px;
+    display: flex;
+}
+
+body{
+    background-image: url(../../../public/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
