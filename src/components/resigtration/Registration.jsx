@@ -3,13 +3,13 @@ import { Grid, Paper, TextField, Typography, MenuItem, Button } from '@mui/mater
 import "./Registration.css"
 
 const Registration = () => {
-    const paperStyle = { padding: '30px 20px', width: 400, margin: '20px 0px 0px 950px' };
+    const paperStyle = { padding: '30px 20px', width:400 };
     const headerStyle = { margin: 0 }
     const marginTop = { marginTop: '30px' }
     const marginTextField = { marginTop: '15px' }
     return (
         <Grid>
-            <Paper elevation={10} style={paperStyle}>
+            <Paper style={paperStyle} align='right'>
                 <Grid align='center'>
                     <h2 style={headerStyle}>Register</h2>
                     <Typography variant='caption'>Please fill this form to create an account !</Typography>

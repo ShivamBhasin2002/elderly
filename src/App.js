@@ -1,12 +1,12 @@
 import './App.css';
+import SignInOutConatiner from './components/container/SignInOutConatiner';
 import Navbar from './components/navbar/Navbar';
-import Registration from './components/resigtration/Registration';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Registration />
+      <SignInOutConatiner />
     </div>
   );
 }

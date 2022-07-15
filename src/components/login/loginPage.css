@@ -1,0 +1,14 @@
+#link{
+    text-decoration: none;
+}
+#typo{
+    margin: 30px 0px 0px 0px;
+}
+
+.icons{
+    display: flex;
+    font-size: 2rem;
+    flex: 1;
+    margin: 30px 0px 0px 60px;
+    gap: 5rem;
+}
