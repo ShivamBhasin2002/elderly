@@ -18,3 +18,15 @@
     display: flex;
 }
 
+.place{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.error{
+   font-size: 12px;
+   color: orange;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
