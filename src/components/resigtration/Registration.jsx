@@ -27,13 +27,17 @@ const Registration = () => {
         e.preventDefault();
 
         const {name, email, country, city, password, confirm_password} = user;
-        const res = await fetch("user/register", {
+        const res = await fetch("http://localhost:5100/user/register", {
             method: "POST",
             headers:{
-               "Content-Type" : "application/json"
+               "Content-Type" : "application/json",
+               'Access-Control-Allow-Origin':'*'
             },
+
             body: JSON.stringify({
-                name, email, country, city, password, confirm_password
+                // name, email, country, city, password, confirm_password
+                "name":"A",
+                "country":"b"
             })
         });
 
